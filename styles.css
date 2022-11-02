@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    margin-top: 9px;
+}
+nav > a{
+    color: black;
+    padding:6px;
+    top:2px;
+    position: relative;
+    left:1050px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+    color: black;
+}
+#fm{
+    align-items: center;
+    display:block;
+    position: relative;
+    top: 70px;
+}
+::placeholder
+{
+    font-size: small;
+}
+
+input[type=text] {
+    width: 650px;
+    height: auto;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 24px;
+    position: relative;
+    left: 300px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E");
+    background-position: 10px 13px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+
+  }
+input[type="text"]:hover{
+    box-shadow: none;
+    border: 1px transparent #dfe1e5;
+    outline: none;
+
+}
+.btn, .btn1
+{
+    color: #3D4042;
+    background-color: #F8F9FA;
+    padding: 7px;
+    border: 1px solid #F8F9Fa;
+    border-radius: 2px;
+    position: relative;
+    left: 475px;
+}
+.btn:hover{
+    border: 1px solid grey;
+}
+.btn1:hover{
+    border: 1px solid grey;
+}
+.rbg{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
